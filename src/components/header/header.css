@@ -1,0 +1,12 @@
+.menu-list {
+    margin-top: 120px;
+    & > li {
+        color: white;
+        font-size: 92px;
+        overflow: hidden;
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+    }
+}
